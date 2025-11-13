@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let arr = [
+        { id: "john", name: "john smith", age: 20 },
+        { id: "ann", name: "ann smith", age: 21 },
+        { id: "pete", name: "pete peterson", age: 19 },
+      ];
+      let users = [];
+
+      for (let item of arr) {
+        users.push(item.id);
+      }
+      console.log(users);
+    </script>
+  </body>
+</html>
